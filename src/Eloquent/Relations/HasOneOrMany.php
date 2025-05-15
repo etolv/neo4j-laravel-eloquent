@@ -528,7 +528,9 @@ abstract class HasOneOrMany extends Relation implements RelationInterface
         $results = [];
         foreach ($id as $model) {
             $edge = $this->edge($model);
-            $results[] = $edge->delete();
+            if ($edge) {
+                $results[] = $edge->delete();
+            }
         }
 
         if ($touch) {
