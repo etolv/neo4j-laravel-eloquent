@@ -18,14 +18,14 @@ This is a fork from https://github.com/Vinelab/NeoEloquent with all the fixes ne
 
 ## Installation
 
-Run `composer require global-innovation/neo4j-laravel-eloquent`
+Run `composer require etolv/neo4j-laravel-eloquent`
 
 Or add the package to your `composer.json` and run `composer update`.
 
 ```json
 {
     "require": {
-        "global-innovation/neo4j-laravel-eloquent": "~2.3.0"
+        "etolv/neo4j-laravel-eloquent": "~2.3.0"
     }
 }
 ```
