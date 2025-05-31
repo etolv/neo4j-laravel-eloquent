@@ -1,6 +1,6 @@
 {
     "name": "etolv/neo4j-laravel-eloquent",
-    "version": "v2.3.0",
+    "version": "v3.2.0",
     "description": "Laravel wrapper for the Neo4j graph database REST interface",
     "keywords": [
         "neo4j",
