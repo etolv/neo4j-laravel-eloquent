@@ -35,7 +35,7 @@
         "illuminate/support": "^11.0",
         "illuminate/pagination": "^11.0",
         "nesbot/carbon": "^2.0|^3.0",
-        "laudis/neo4j-php-client": "^2.3.3|^3.0"
+        "etolv/neo4j-php-client": "^3.2"
     },
     "require-dev": {
         "mockery/mockery": "~1.3.0|^1.6",
